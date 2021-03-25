@@ -1,4 +1,4 @@
-package com.ibm.demo;
+/*package com.ibm.demo;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,3 +28,4 @@ public class BugController {
 		return "Bug deleted";
 	}
 }
+/*
