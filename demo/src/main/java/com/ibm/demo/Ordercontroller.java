@@ -67,8 +67,7 @@ public class Ordercontroller { // frontend
 	}
 
 	@DeleteMapping("/order/{id}")
-	String deleteOrder(@PathVariable("id") int orderId, HttpRequest httpRequest) {
-		System.out.println(httpRequest.getHeaders());
+	String deleteOrder(@PathVariable("id") String orderId) {
 		System.out.println(orderId);
 		return "order deleted";
 	}
